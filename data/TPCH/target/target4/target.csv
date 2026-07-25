@@ -1,0 +1,11 @@
+supplier_id,supplier_name,part_id,brand,supply_cost,container
+201,Supplier#201,701,Brand#11,312.50,SM BOX
+201,Supplier#201,702,Brand#12,280.00,MED BAG
+202,Supplier#202,701,Brand#11,299.00,SM BOX
+203,Supplier#203,703,Brand#21,410.20,JUMBO CAN
+204,Supplier#204,704,Brand#33,120.10,LG PACK
+205,Supplier#205,705,Brand#42,510.00,WRAP CASE
+205,Supplier#205,706,Brand#42,520.00,WRAP CASE
+206,Supplier#206,707,Brand#15,220.00,MED BOX
+207,Supplier#207,708,Brand#55,610.00,LG BAG
+208,Supplier#208,709,Brand#14,199.99,SM PACK

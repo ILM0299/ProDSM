@@ -1,0 +1,7 @@
+{
+  "supplier_id": [7, 32],
+  "supplier_name": [8],
+  "nation_name": [4],
+  "region_name": [1],
+  "account_balance": [12]
+}

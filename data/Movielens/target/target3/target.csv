@@ -1,0 +1,11 @@
+user_id,gender,movie_id,title,rating
+3,M,296,Pulp Fiction,5
+3,M,356,Forrest Gump,4
+5,M,260,Star Wars: Episode IV - A New Hope,5
+7,M,318,"Shawshank Redemption, The",5
+7,M,1193,One Flew Over the Cuckoo's Nest,4
+10,F,296,Pulp Fiction,4
+10,F,2571,"Matrix, The",5
+13,M,589,Terminator 2: Judgment Day,4
+16,F,593,"Silence of the Lambs, The",4
+18,F,1,Toy Story,4

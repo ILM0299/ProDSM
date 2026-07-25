@@ -1,0 +1,74 @@
+{
+  "_fingerprint": "398_1782003261",
+  "profiles": {
+    "0": {
+      "col": "0",
+      "dtype": "int",
+      "n_rows": 5,
+      "n_unique": 5,
+      "null_rate": 0.0,
+      "num_min": 0.0,
+      "num_max": 4.0,
+      "num_p25": 1.0,
+      "num_p50": 2.0,
+      "num_p75": 3.0,
+      "str_avg_len": 1.0,
+      "str_char_class": "digit",
+      "unique_vals": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "exact_unique": true,
+      "hll_cardinality": null
+    },
+    "1": {
+      "col": "1",
+      "dtype": "str",
+      "n_rows": 5,
+      "n_unique": 5,
+      "null_rate": 0.0,
+      "num_min": null,
+      "num_max": null,
+      "num_p25": null,
+      "num_p50": null,
+      "num_p75": null,
+      "str_avg_len": 6.8,
+      "str_char_class": "alpha",
+      "unique_vals": [
+        "AFRICA",
+        "AMERICA",
+        "ASIA",
+        "EUROPE",
+        "MIDDLE EAST"
+      ],
+      "exact_unique": true,
+      "hll_cardinality": null
+    },
+    "2": {
+      "col": "2",
+      "dtype": "str",
+      "n_rows": 5,
+      "n_unique": 5,
+      "null_rate": 0.0,
+      "num_min": null,
+      "num_max": null,
+      "num_p25": null,
+      "num_p50": null,
+      "num_p75": null,
+      "str_avg_len": 65.8,
+      "str_char_class": "mixed",
+      "unique_vals": [
+        "ges. thinly even pinto beans ca",
+        "hs use ironic, even requests. s",
+        "lar deposits. blithely final packages cajole. regular waters are final requests. regular accounts are according to",
+        "ly final courts cajole furiously final excuse",
+        "uickly special accounts cajole carefully blithely close requests. carefully final asymptotes haggle furiousl"
+      ],
+      "exact_unique": true,
+      "hll_cardinality": null
+    }
+  }
+}

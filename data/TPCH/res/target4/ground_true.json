@@ -1,0 +1,8 @@
+{
+  "supplier_id": [7, 32, 47],
+  "supplier_name": [8],
+  "part_id": [22, 31, 46],
+  "brand": [25],
+  "supply_cost": [34],
+  "container": [28]
+}

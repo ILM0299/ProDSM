@@ -1,0 +1,7 @@
+{
+  "movie_id": [0, 10],
+  "title": [1],
+  "genres": [3],
+  "user_id": [4, 9],
+  "rating": [11]
+}

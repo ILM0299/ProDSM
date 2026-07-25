@@ -1,0 +1,11 @@
+user_id,age,movie_id,year,genres,rating
+3,25,296,1994,Crime|Drama,5
+3,25,1,1995,Animation|Children's|Comedy,4
+7,35,260,1977,Action|Adventure|Fantasy|Sci-Fi,5
+7,35,318,1994,Drama,5
+10,35,2571,1999,Action|Sci-Fi|Thriller,5
+10,35,356,1994,Comedy|Romance|War,4
+12,25,589,1991,Action|Sci-Fi|Thriller,5
+15,25,296,1994,Crime|Drama,4
+16,35,2858,1999,Comedy|Drama,4
+18,18,593,1991,Drama|Thriller,4

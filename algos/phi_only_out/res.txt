@@ -1,0 +1,708 @@
+######################################################################
+#  Dataset = MusicRecordings
+######################################################################
+
+============================================================
+  n_inst = 1
+============================================================
+  --- target1 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+    phi-only(S1)     P@1 0.8233  P@3 1.0000  P@5 1.0000  MRR 0.9117  Recall@GT 0.7233
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target2 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target3 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+    phi-only(S1)     P@1 0.8233  P@3 1.0000  P@5 1.0000  MRR 0.9117  Recall@GT 0.7233
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target4 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target5 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 0.8433  P@3 1.0000  P@5 1.0000  MRR 0.9217  Recall@GT 0.7200
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target6 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+
+  --- MusicRecordings / n_inst=1  Avg over 6 targets ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.8889
+    phi-only(det)    P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.8889
+    phi-only(S1)     P@1 0.9150  P@3 1.0000  P@5 1.0000  MRR 0.9575  Recall@GT 0.8611
+    phi-only(S2)     P@1 0.1560  P@3 0.4965  P@5 0.8340  MRR 0.4014  Recall@GT 0.1628
+    phi-only(S3)     P@1 0.2361  P@3 0.7639  P@5 1.0000  MRR 0.5287  Recall@GT 0.3472
+    phi-only(S4)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.9444
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+
+============================================================
+  n_inst = 3
+============================================================
+  --- target1 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+    phi-only(S1)     P@1 0.8233  P@3 1.0000  P@5 1.0000  MRR 0.9117  Recall@GT 0.6667
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target2 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target3 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+    phi-only(S1)     P@1 0.8233  P@3 1.0000  P@5 1.0000  MRR 0.9117  Recall@GT 0.7233
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target4 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.8333
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.8333
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.8867
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target5 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+    phi-only(S1)     P@1 0.8433  P@3 1.0000  P@5 1.0000  MRR 0.9217  Recall@GT 0.6667
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target6 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+
+  --- MusicRecordings / n_inst=3  Avg over 6 targets ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.8056
+    phi-only(det)    P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.8056
+    phi-only(S1)     P@1 0.9150  P@3 1.0000  P@5 1.0000  MRR 0.9575  Recall@GT 0.8239
+    phi-only(S2)     P@1 0.1560  P@3 0.4965  P@5 0.8340  MRR 0.4014  Recall@GT 0.1628
+    phi-only(S3)     P@1 0.5278  P@3 0.9028  P@5 1.0000  MRR 0.7046  Recall@GT 0.5278
+    phi-only(S4)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.9444
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+
+============================================================
+  n_inst = 5
+============================================================
+  --- target1 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+    phi-only(S1)     P@1 0.8233  P@3 1.0000  P@5 1.0000  MRR 0.9117  Recall@GT 0.7233
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target2 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target3 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+    phi-only(S1)     P@1 0.8233  P@3 1.0000  P@5 1.0000  MRR 0.9117  Recall@GT 0.7233
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target4 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.8333
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.8333
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.8867
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target5 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+    phi-only(S1)     P@1 0.8433  P@3 1.0000  P@5 1.0000  MRR 0.9217  Recall@GT 0.6667
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target6 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+
+  --- MusicRecordings / n_inst=5  Avg over 6 targets ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.8056
+    phi-only(det)    P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.8056
+    phi-only(S1)     P@1 0.9150  P@3 1.0000  P@5 1.0000  MRR 0.9575  Recall@GT 0.8333
+    phi-only(S2)     P@1 0.1560  P@3 0.4965  P@5 0.8340  MRR 0.4014  Recall@GT 0.1628
+    phi-only(S3)     P@1 0.4583  P@3 1.0000  P@5 1.0000  MRR 0.7060  Recall@GT 0.5694
+    phi-only(S4)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.9444
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+
+============================================================
+  n_inst = 8
+============================================================
+  --- target1 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+    phi-only(S1)     P@1 0.8233  P@3 1.0000  P@5 1.0000  MRR 0.9117  Recall@GT 0.6667
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target2 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target3 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target4 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target5 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target6 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+
+  --- MusicRecordings / n_inst=8  Avg over 6 targets ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.9444
+    phi-only(det)    P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.9444
+    phi-only(S1)     P@1 0.9706  P@3 1.0000  P@5 1.0000  MRR 0.9853  Recall@GT 0.8889
+    phi-only(S2)     P@1 0.1560  P@3 0.4965  P@5 0.8340  MRR 0.4014  Recall@GT 0.1628
+    phi-only(S3)     P@1 0.4306  P@3 1.0000  P@5 1.0000  MRR 0.6921  Recall@GT 0.5278
+    phi-only(S4)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.9444
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+
+============================================================
+  n_inst = 10
+============================================================
+  --- target1 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6667
+    phi-only(S1)     P@1 0.8233  P@3 1.0000  P@5 1.0000  MRR 0.9117  Recall@GT 0.6667
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target2 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target3 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target4 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.8333
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.8333
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target5 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+  --- target6 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    phi-only(S1)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 1.0000
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+
+  --- MusicRecordings / n_inst=10  Avg over 6 targets ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.9167
+    phi-only(det)    P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.9167
+    phi-only(S1)     P@1 0.9706  P@3 1.0000  P@5 1.0000  MRR 0.9853  Recall@GT 0.9444
+    phi-only(S2)     P@1 0.1560  P@3 0.4965  P@5 0.8340  MRR 0.4014  Recall@GT 0.1628
+    phi-only(S3)     P@1 0.5139  P@3 1.0000  P@5 1.0000  MRR 0.7153  Recall@GT 0.5694
+    phi-only(S4)     P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.9444
+    random           P@1 0.1667  P@3 0.5000  P@5 0.8333  MRR 0.4083  Recall@GT 0.1667
+
+######################################################################
+#  Dataset = Movielens
+######################################################################
+
+============================================================
+  n_inst = 1
+============================================================
+  --- target1 ---
+    phi-only         P@1 0.5000  P@3 1.0000  P@5 1.0000  MRR 0.7083  Recall@GT 0.4000
+      (det. argsort) P@1 0.5000  P@3 1.0000  P@5 1.0000  MRR 0.7083  Recall@GT 0.4000
+    phi-only(S1)     P@1 0.6200  P@3 0.8800  P@5 1.0000  MRR 0.7583  Recall@GT 0.4470
+    random           P@1 0.0962  P@3 0.2788  P@5 0.4487  MRR 0.2743  Recall@GT 0.0962
+  --- target2 ---
+    phi-only         P@1 0.6000  P@3 0.7500  P@5 1.0000  MRR 0.7375  Recall@GT 0.5410
+      (det. argsort) P@1 0.5000  P@3 0.7500  P@5 1.0000  MRR 0.6875  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.6150  P@3 0.7500  P@5 0.8650  MRR 0.7280  Recall@GT 0.5100
+    random           P@1 0.0962  P@3 0.2788  P@5 0.4487  MRR 0.2743  Recall@GT 0.0962
+  --- target3 ---
+    phi-only         P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.5714
+      (det. argsort) P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.5714
+    phi-only(S1)     P@1 0.5770  P@3 0.8000  P@5 1.0000  MRR 0.7327  Recall@GT 0.3843
+    random           P@1 0.1077  P@3 0.3077  P@5 0.4872  MRR 0.2921  Recall@GT 0.1077
+  --- target4 ---
+    phi-only         P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.4936
+      (det. argsort) P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.4286
+    phi-only(S1)     P@1 0.6000  P@3 0.8000  P@5 1.0000  MRR 0.7445  Recall@GT 0.4014
+    random           P@1 0.1077  P@3 0.3077  P@5 0.4872  MRR 0.2921  Recall@GT 0.1077
+  --- target5 ---
+    phi-only         P@1 0.7583  P@3 0.8333  P@5 1.0000  MRR 0.8375  Recall@GT 0.5631
+      (det. argsort) P@1 0.6667  P@3 0.8333  P@5 1.0000  MRR 0.7917  Recall@GT 0.5000
+    phi-only(S1)     P@1 0.6742  P@3 0.8333  P@5 1.0000  MRR 0.7913  Recall@GT 0.5244
+    random           P@1 0.1026  P@3 0.2949  P@5 0.4701  MRR 0.2842  Recall@GT 0.1026
+  --- target6 ---
+    phi-only         P@1 0.8475  P@3 0.9000  P@5 1.0000  MRR 0.8988  Recall@GT 0.5833
+      (det. argsort) P@1 0.8000  P@3 0.9000  P@5 1.0000  MRR 0.8750  Recall@GT 0.5833
+    phi-only(S1)     P@1 0.6580  P@3 0.8000  P@5 0.9325  MRR 0.7680  Recall@GT 0.5346
+    random           P@1 0.0923  P@3 0.2692  P@5 0.4359  MRR 0.2684  Recall@GT 0.0923
+
+  --- Movielens / n_inst=1  Avg over 6 targets ---
+    phi-only         P@1 0.7176  P@3 0.8472  P@5 1.0000  MRR 0.8137  Recall@GT 0.5254
+    phi-only(det)    P@1 0.6778  P@3 0.8472  P@5 1.0000  MRR 0.7937  Recall@GT 0.5139
+    phi-only(S1)     P@1 0.6240  P@3 0.8106  P@5 0.9663  MRR 0.7538  Recall@GT 0.4669
+    phi-only(S2)     P@1 0.1681  P@3 0.4728  P@5 0.7360  MRR 0.3901  Recall@GT 0.1785
+    phi-only(S3)     P@1 0.2556  P@3 0.5908  P@5 0.8889  MRR 0.4678  Recall@GT 0.2643
+    phi-only(S4)     P@1 0.6603  P@3 0.8472  P@5 1.0000  MRR 0.7789  Recall@GT 0.5424
+    random           P@1 0.1004  P@3 0.2895  P@5 0.4630  MRR 0.2809  Recall@GT 0.1004
+
+============================================================
+  n_inst = 3
+============================================================
+  --- target1 ---
+    phi-only         P@1 0.7500  P@3 1.0000  P@5 1.0000  MRR 0.8750  Recall@GT 0.4000
+      (det. argsort) P@1 0.7500  P@3 1.0000  P@5 1.0000  MRR 0.8750  Recall@GT 0.4000
+    phi-only(S1)     P@1 0.6200  P@3 0.8800  P@5 1.0000  MRR 0.7583  Recall@GT 0.4470
+    random           P@1 0.0962  P@3 0.2788  P@5 0.4487  MRR 0.2743  Recall@GT 0.0962
+  --- target2 ---
+    phi-only         P@1 0.7500  P@3 1.0000  P@5 1.0000  MRR 0.8333  Recall@GT 0.6000
+      (det. argsort) P@1 0.7500  P@3 1.0000  P@5 1.0000  MRR 0.8333  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.7500  P@3 0.7500  P@5 0.8650  MRR 0.7955  Recall@GT 0.6000
+    random           P@1 0.0962  P@3 0.2788  P@5 0.4487  MRR 0.2743  Recall@GT 0.0962
+  --- target3 ---
+    phi-only         P@1 0.6000  P@3 1.0000  P@5 1.0000  MRR 0.7667  Recall@GT 0.7143
+      (det. argsort) P@1 0.6000  P@3 1.0000  P@5 1.0000  MRR 0.7667  Recall@GT 0.7143
+    phi-only(S1)     P@1 0.6850  P@3 0.8000  P@5 0.8850  MRR 0.7787  Recall@GT 0.4286
+    random           P@1 0.1077  P@3 0.3077  P@5 0.4872  MRR 0.2921  Recall@GT 0.1077
+  --- target4 ---
+    phi-only         P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.5714
+      (det. argsort) P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.5714
+    phi-only(S1)     P@1 0.7040  P@3 0.8000  P@5 0.8910  MRR 0.7884  Recall@GT 0.5943
+    random           P@1 0.1077  P@3 0.3077  P@5 0.4872  MRR 0.2921  Recall@GT 0.1077
+  --- target5 ---
+    phi-only         P@1 0.8333  P@3 0.8333  P@5 1.0000  MRR 0.8750  Recall@GT 0.7500
+      (det. argsort) P@1 0.8333  P@3 0.8333  P@5 1.0000  MRR 0.8750  Recall@GT 0.7500
+    phi-only(S1)     P@1 0.8333  P@3 0.8333  P@5 0.9183  MRR 0.8639  Recall@GT 0.7500
+    random           P@1 0.1026  P@3 0.2949  P@5 0.4701  MRR 0.2842  Recall@GT 0.1026
+  --- target6 ---
+    phi-only         P@1 0.9000  P@3 1.0000  P@5 1.0000  MRR 0.9500  Recall@GT 0.5833
+      (det. argsort) P@1 0.9000  P@3 1.0000  P@5 1.0000  MRR 0.9500  Recall@GT 0.5833
+    phi-only(S1)     P@1 0.7105  P@3 0.8000  P@5 0.9325  MRR 0.7942  Recall@GT 0.5346
+    random           P@1 0.0923  P@3 0.2692  P@5 0.4359  MRR 0.2684  Recall@GT 0.0923
+
+  --- Movielens / n_inst=3  Avg over 6 targets ---
+    phi-only         P@1 0.7722  P@3 0.9389  P@5 1.0000  MRR 0.8583  Recall@GT 0.6032
+    phi-only(det)    P@1 0.7722  P@3 0.9389  P@5 1.0000  MRR 0.8583  Recall@GT 0.6032
+    phi-only(S1)     P@1 0.7171  P@3 0.8106  P@5 0.9153  MRR 0.7965  Recall@GT 0.5591
+    phi-only(S2)     P@1 0.1762  P@3 0.4949  P@5 0.7703  MRR 0.4031  Recall@GT 0.1790
+    phi-only(S3)     P@1 0.4239  P@3 0.8336  P@5 1.0000  MRR 0.6255  Recall@GT 0.3418
+    phi-only(S4)     P@1 0.7889  P@3 0.8578  P@5 1.0000  MRR 0.8481  Recall@GT 0.5710
+    random           P@1 0.1004  P@3 0.2895  P@5 0.4630  MRR 0.2809  Recall@GT 0.1004
+
+============================================================
+  n_inst = 5
+============================================================
+  --- target1 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.8700  P@3 1.0000  P@5 1.0000  MRR 0.9350  Recall@GT 0.8000
+    random           P@1 0.0962  P@3 0.2788  P@5 0.4487  MRR 0.2743  Recall@GT 0.0962
+  --- target2 ---
+    phi-only         P@1 0.7500  P@3 0.7500  P@5 1.0000  MRR 0.8125  Recall@GT 0.6000
+      (det. argsort) P@1 0.7500  P@3 0.7500  P@5 1.0000  MRR 0.8125  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.7500  P@3 0.7500  P@5 0.8650  MRR 0.7955  Recall@GT 0.6000
+    random           P@1 0.0962  P@3 0.2788  P@5 0.4487  MRR 0.2743  Recall@GT 0.0962
+  --- target3 ---
+    phi-only         P@1 0.6000  P@3 1.0000  P@5 1.0000  MRR 0.8000  Recall@GT 0.5714
+      (det. argsort) P@1 0.6000  P@3 1.0000  P@5 1.0000  MRR 0.8000  Recall@GT 0.5714
+    phi-only(S1)     P@1 0.6850  P@3 0.8000  P@5 1.0000  MRR 0.7868  Recall@GT 0.5807
+    random           P@1 0.1077  P@3 0.3077  P@5 0.4872  MRR 0.2921  Recall@GT 0.1077
+  --- target4 ---
+    phi-only         P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.5714
+      (det. argsort) P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.5714
+    phi-only(S1)     P@1 0.7040  P@3 0.8000  P@5 1.0000  MRR 0.7966  Recall@GT 0.5136
+    random           P@1 0.1077  P@3 0.3077  P@5 0.4872  MRR 0.2921  Recall@GT 0.1077
+  --- target5 ---
+    phi-only         P@1 0.8333  P@3 1.0000  P@5 1.0000  MRR 0.8889  Recall@GT 0.7500
+      (det. argsort) P@1 0.8333  P@3 1.0000  P@5 1.0000  MRR 0.8889  Recall@GT 0.7500
+    phi-only(S1)     P@1 0.8333  P@3 0.8333  P@5 1.0000  MRR 0.8709  Recall@GT 0.6369
+    random           P@1 0.1026  P@3 0.2949  P@5 0.4701  MRR 0.2842  Recall@GT 0.1026
+  --- target6 ---
+    phi-only         P@1 0.9000  P@3 1.0000  P@5 1.0000  MRR 0.9500  Recall@GT 0.6667
+      (det. argsort) P@1 0.9000  P@3 1.0000  P@5 1.0000  MRR 0.9500  Recall@GT 0.6667
+    phi-only(S1)     P@1 0.7560  P@3 0.8000  P@5 0.9325  MRR 0.8170  Recall@GT 0.6754
+    random           P@1 0.0923  P@3 0.2692  P@5 0.4359  MRR 0.2684  Recall@GT 0.0923
+
+  --- Movielens / n_inst=5  Avg over 6 targets ---
+    phi-only         P@1 0.8139  P@3 0.9250  P@5 1.0000  MRR 0.8836  Recall@GT 0.6266
+    phi-only(det)    P@1 0.8139  P@3 0.9250  P@5 1.0000  MRR 0.8836  Recall@GT 0.6266
+    phi-only(S1)     P@1 0.7664  P@3 0.8306  P@5 0.9663  MRR 0.8336  Recall@GT 0.6344
+    phi-only(S2)     P@1 0.1762  P@3 0.4949  P@5 0.7703  MRR 0.4031  Recall@GT 0.1790
+    phi-only(S3)     P@1 0.4786  P@3 0.8267  P@5 0.9939  MRR 0.6579  Recall@GT 0.3468
+    phi-only(S4)     P@1 0.8291  P@3 0.9449  P@5 1.0000  MRR 0.8881  Recall@GT 0.6266
+    random           P@1 0.1004  P@3 0.2895  P@5 0.4630  MRR 0.2809  Recall@GT 0.1004
+
+============================================================
+  n_inst = 8
+============================================================
+  --- target1 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.8700  P@3 1.0000  P@5 1.0000  MRR 0.9350  Recall@GT 0.6000
+    random           P@1 0.0962  P@3 0.2788  P@5 0.4487  MRR 0.2743  Recall@GT 0.0962
+  --- target2 ---
+    phi-only         P@1 0.7500  P@3 0.7500  P@5 1.0000  MRR 0.8125  Recall@GT 0.6000
+      (det. argsort) P@1 0.7500  P@3 0.7500  P@5 1.0000  MRR 0.8125  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.7500  P@3 0.7500  P@5 0.8650  MRR 0.7955  Recall@GT 0.6000
+    random           P@1 0.0962  P@3 0.2788  P@5 0.4487  MRR 0.2743  Recall@GT 0.0962
+  --- target3 ---
+    phi-only         P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.8667  Recall@GT 0.5714
+      (det. argsort) P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.8667  Recall@GT 0.5714
+    phi-only(S1)     P@1 0.6850  P@3 0.8000  P@5 0.8850  MRR 0.7787  Recall@GT 0.5714
+    random           P@1 0.1077  P@3 0.3077  P@5 0.4872  MRR 0.2921  Recall@GT 0.1077
+  --- target4 ---
+    phi-only         P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.5714
+      (det. argsort) P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.5714
+    phi-only(S1)     P@1 0.7040  P@3 0.8000  P@5 0.8910  MRR 0.7884  Recall@GT 0.5714
+    random           P@1 0.1077  P@3 0.3077  P@5 0.4872  MRR 0.2921  Recall@GT 0.1077
+  --- target5 ---
+    phi-only         P@1 0.8333  P@3 0.8333  P@5 1.0000  MRR 0.8750  Recall@GT 0.7500
+      (det. argsort) P@1 0.8333  P@3 0.8333  P@5 1.0000  MRR 0.8750  Recall@GT 0.7500
+    phi-only(S1)     P@1 0.8333  P@3 0.8333  P@5 0.9183  MRR 0.8639  Recall@GT 0.7500
+    random           P@1 0.1026  P@3 0.2949  P@5 0.4701  MRR 0.2842  Recall@GT 0.1026
+  --- target6 ---
+    phi-only         P@1 0.9000  P@3 1.0000  P@5 1.0000  MRR 0.9333  Recall@GT 0.6667
+      (det. argsort) P@1 0.9000  P@3 1.0000  P@5 1.0000  MRR 0.9333  Recall@GT 0.6667
+    phi-only(S1)     P@1 0.7560  P@3 0.8000  P@5 0.9325  MRR 0.8170  Recall@GT 0.6667
+    random           P@1 0.0923  P@3 0.2692  P@5 0.4359  MRR 0.2684  Recall@GT 0.0923
+
+  --- Movielens / n_inst=8  Avg over 6 targets ---
+    phi-only         P@1 0.8472  P@3 0.8972  P@5 1.0000  MRR 0.8896  Recall@GT 0.6266
+    phi-only(det)    P@1 0.8472  P@3 0.8972  P@5 1.0000  MRR 0.8896  Recall@GT 0.6266
+    phi-only(S1)     P@1 0.7664  P@3 0.8306  P@5 0.9153  MRR 0.8297  Recall@GT 0.6266
+    phi-only(S2)     P@1 0.1762  P@3 0.4949  P@5 0.7703  MRR 0.4044  Recall@GT 0.1790
+    phi-only(S3)     P@1 0.4822  P@3 0.8336  P@5 1.0000  MRR 0.6574  Recall@GT 0.3369
+    phi-only(S4)     P@1 0.8414  P@3 0.9305  P@5 1.0000  MRR 0.8909  Recall@GT 0.6266
+    random           P@1 0.1004  P@3 0.2895  P@5 0.4630  MRR 0.2809  Recall@GT 0.1004
+
+============================================================
+  n_inst = 10
+============================================================
+  --- target1 ---
+    phi-only         P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.8000
+      (det. argsort) P@1 1.0000  P@3 1.0000  P@5 1.0000  MRR 1.0000  Recall@GT 0.8000
+    phi-only(S1)     P@1 0.8700  P@3 1.0000  P@5 1.0000  MRR 0.9350  Recall@GT 0.8000
+    random           P@1 0.0962  P@3 0.2788  P@5 0.4487  MRR 0.2743  Recall@GT 0.0962
+  --- target2 ---
+    phi-only         P@1 0.7500  P@3 0.7500  P@5 1.0000  MRR 0.8125  Recall@GT 0.6000
+      (det. argsort) P@1 0.7500  P@3 0.7500  P@5 1.0000  MRR 0.8125  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.7500  P@3 0.7500  P@5 0.8650  MRR 0.7955  Recall@GT 0.6000
+    random           P@1 0.0962  P@3 0.2788  P@5 0.4487  MRR 0.2743  Recall@GT 0.0962
+  --- target3 ---
+    phi-only         P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.8667  Recall@GT 0.5714
+      (det. argsort) P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.8667  Recall@GT 0.5714
+    phi-only(S1)     P@1 0.6850  P@3 0.8000  P@5 0.8850  MRR 0.7787  Recall@GT 0.5714
+    random           P@1 0.1077  P@3 0.3077  P@5 0.4872  MRR 0.2921  Recall@GT 0.1077
+  --- target4 ---
+    phi-only         P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.5714
+      (det. argsort) P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.5714
+    phi-only(S1)     P@1 0.7040  P@3 0.8000  P@5 0.8910  MRR 0.7884  Recall@GT 0.5714
+    random           P@1 0.1077  P@3 0.3077  P@5 0.4872  MRR 0.2921  Recall@GT 0.1077
+  --- target5 ---
+    phi-only         P@1 0.8333  P@3 0.8333  P@5 1.0000  MRR 0.8750  Recall@GT 0.7500
+      (det. argsort) P@1 0.8333  P@3 0.8333  P@5 1.0000  MRR 0.8750  Recall@GT 0.7500
+    phi-only(S1)     P@1 0.8333  P@3 0.8333  P@5 0.9183  MRR 0.8639  Recall@GT 0.6250
+    random           P@1 0.1026  P@3 0.2949  P@5 0.4701  MRR 0.2842  Recall@GT 0.1026
+  --- target6 ---
+    phi-only         P@1 0.9000  P@3 1.0000  P@5 1.0000  MRR 0.9333  Recall@GT 0.6667
+      (det. argsort) P@1 0.9000  P@3 1.0000  P@5 1.0000  MRR 0.9333  Recall@GT 0.6667
+    phi-only(S1)     P@1 0.7560  P@3 0.8000  P@5 0.9325  MRR 0.8170  Recall@GT 0.6667
+    random           P@1 0.0923  P@3 0.2692  P@5 0.4359  MRR 0.2684  Recall@GT 0.0923
+
+  --- Movielens / n_inst=10  Avg over 6 targets ---
+    phi-only         P@1 0.8472  P@3 0.8972  P@5 1.0000  MRR 0.8896  Recall@GT 0.6599
+    phi-only(det)    P@1 0.8472  P@3 0.8972  P@5 1.0000  MRR 0.8896  Recall@GT 0.6599
+    phi-only(S1)     P@1 0.7664  P@3 0.8306  P@5 0.9153  MRR 0.8297  Recall@GT 0.6391
+    phi-only(S2)     P@1 0.1762  P@3 0.4949  P@5 0.7703  MRR 0.4056  Recall@GT 0.1790
+    phi-only(S3)     P@1 0.4822  P@3 0.8336  P@5 1.0000  MRR 0.6574  Recall@GT 0.3369
+    phi-only(S4)     P@1 0.8472  P@3 0.9305  P@5 1.0000  MRR 0.8938  Recall@GT 0.6058
+    random           P@1 0.1004  P@3 0.2895  P@5 0.4630  MRR 0.2809  Recall@GT 0.1004
+
+######################################################################
+#  Dataset = TPCH
+######################################################################
+
+============================================================
+  n_inst = 1
+============================================================
+  --- target1 ---
+    phi-only         P@1 0.6640  P@3 0.8000  P@5 0.8000  MRR 0.7462  Recall@GT 0.6000
+      (det. argsort) P@1 0.6000  P@3 0.8000  P@5 0.8000  MRR 0.7250  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.3620  P@3 0.6920  P@5 0.8990  MRR 0.5654  Recall@GT 0.4200
+    random           P@1 0.0164  P@3 0.0492  P@5 0.0820  MRR 0.0770  Recall@GT 0.0164
+  --- target2 ---
+    phi-only         P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.9000  Recall@GT 0.8000
+      (det. argsort) P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.9000  Recall@GT 0.8000
+    phi-only(S1)     P@1 0.4000  P@3 0.4000  P@5 0.4000  MRR 0.4336  Recall@GT 0.4000
+    random           P@1 0.0164  P@3 0.0492  P@5 0.0820  MRR 0.0770  Recall@GT 0.0164
+  --- target3 ---
+    phi-only         P@1 0.3167  P@3 0.6667  P@5 0.6667  MRR 0.5044  Recall@GT 0.2385
+      (det. argsort) P@1 0.1667  P@3 0.6667  P@5 0.6667  MRR 0.4294  Recall@GT 0.1000
+    phi-only(S1)     P@1 0.3167  P@3 0.5000  P@5 0.5000  MRR 0.4514  Recall@GT 0.2120
+    random           P@1 0.0273  P@3 0.0806  P@5 0.1321  MRR 0.1067  Recall@GT 0.0273
+  --- target4 ---
+    phi-only         P@1 0.7792  P@3 0.8333  P@5 0.8333  MRR 0.8199  Recall@GT 0.5000
+      (det. argsort) P@1 0.8333  P@3 0.8333  P@5 0.8333  MRR 0.8485  Recall@GT 0.5000
+    phi-only(S1)     P@1 0.4458  P@3 0.5000  P@5 0.5000  MRR 0.4951  Recall@GT 0.4000
+    random           P@1 0.0273  P@3 0.0803  P@5 0.1312  MRR 0.1055  Recall@GT 0.0273
+  --- target5 ---
+    phi-only         P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.8667  Recall@GT 0.6000
+      (det. argsort) P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.8667  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.4710  P@3 0.6720  P@5 0.8650  MRR 0.6198  Recall@GT 0.4440
+    random           P@1 0.0164  P@3 0.0492  P@5 0.0820  MRR 0.0770  Recall@GT 0.0164
+  --- target6 ---
+    phi-only         P@1 0.5236  P@3 0.7857  P@5 0.9736  MRR 0.7010  Recall@GT 0.3431
+      (det. argsort) P@1 0.7143  P@3 0.8571  P@5 1.0000  MRR 0.8214  Recall@GT 0.2500
+    phi-only(S1)     P@1 0.2329  P@3 0.3371  P@5 0.3764  MRR 0.3270  Recall@GT 0.2694
+    random           P@1 0.0187  P@3 0.0560  P@5 0.0929  MRR 0.0836  Recall@GT 0.0187
+  --- target7 ---
+    phi-only         P@1 0.5275  P@3 0.8400  P@5 0.9113  MRR 0.6665  Recall@GT 0.2742
+      (det. argsort) P@1 0.5000  P@3 0.7500  P@5 1.0000  MRR 0.6333  Recall@GT 0.3333
+    phi-only(S1)     P@1 0.2775  P@3 0.3400  P@5 0.4113  MRR 0.3834  Recall@GT 0.2200
+    random           P@1 0.0246  P@3 0.0725  P@5 0.1189  MRR 0.0984  Recall@GT 0.0246
+  --- target8 ---
+    phi-only         P@1 0.6000  P@3 0.6000  P@5 0.8000  MRR 0.6576  Recall@GT 0.5000
+      (det. argsort) P@1 0.6000  P@3 0.6000  P@5 0.8000  MRR 0.6567  Recall@GT 0.5000
+    phi-only(S1)     P@1 0.4000  P@3 0.4000  P@5 0.4000  MRR 0.4151  Recall@GT 0.3333
+    random           P@1 0.0197  P@3 0.0587  P@5 0.0973  MRR 0.0862  Recall@GT 0.0197
+
+  --- TPCH / n_inst=1  Avg over 8 targets ---
+    phi-only         P@1 0.6264  P@3 0.8157  P@5 0.8731  MRR 0.7328  Recall@GT 0.4820
+    phi-only(det)    P@1 0.6268  P@3 0.8134  P@5 0.8875  MRR 0.7351  Recall@GT 0.4604
+    phi-only(S1)     P@1 0.3632  P@3 0.4801  P@5 0.5440  MRR 0.4613  Recall@GT 0.3373
+    phi-only(S2)     P@1 0.0610  P@3 0.1792  P@5 0.2926  MRR 0.1897  Recall@GT 0.0536
+    phi-only(S3)     P@1 0.1535  P@3 0.5057  P@5 0.5671  MRR 0.3448  Recall@GT 0.1552
+    phi-only(S4)     P@1 0.5893  P@3 0.7718  P@5 0.8613  MRR 0.7110  Recall@GT 0.3860
+    random           P@1 0.0209  P@3 0.0620  P@5 0.1023  MRR 0.0889  Recall@GT 0.0209
+
+============================================================
+  n_inst = 3
+============================================================
+  --- target1 ---
+    phi-only         P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.6000
+      (det. argsort) P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.6640  P@3 0.7900  P@5 0.9320  MRR 0.7608  Recall@GT 0.6000
+    random           P@1 0.0164  P@3 0.0492  P@5 0.0820  MRR 0.0770  Recall@GT 0.0164
+  --- target2 ---
+    phi-only         P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.8667  Recall@GT 0.6000
+      (det. argsort) P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.8667  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.6000  P@3 0.6000  P@5 0.6000  MRR 0.6287  Recall@GT 0.6000
+    random           P@1 0.0164  P@3 0.0492  P@5 0.0820  MRR 0.0770  Recall@GT 0.0164
+  --- target3 ---
+    phi-only         P@1 0.4833  P@3 0.6667  P@5 0.6667  MRR 0.6213  Recall@GT 0.3000
+      (det. argsort) P@1 0.3333  P@3 0.6667  P@5 0.6667  MRR 0.5463  Recall@GT 0.3000
+    phi-only(S1)     P@1 0.4833  P@3 0.6667  P@5 0.6667  MRR 0.6013  Recall@GT 0.2410
+    random           P@1 0.0273  P@3 0.0806  P@5 0.1321  MRR 0.1067  Recall@GT 0.0273
+  --- target4 ---
+    phi-only         P@1 0.6667  P@3 0.8333  P@5 0.8333  MRR 0.7626  Recall@GT 0.4490
+      (det. argsort) P@1 0.6667  P@3 0.8333  P@5 0.8333  MRR 0.7639  Recall@GT 0.5000
+    phi-only(S1)     P@1 0.3333  P@3 0.5000  P@5 0.5000  MRR 0.4389  Recall@GT 0.4000
+    random           P@1 0.0273  P@3 0.0803  P@5 0.1312  MRR 0.1055  Recall@GT 0.0273
+  --- target5 ---
+    phi-only         P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.4000
+      (det. argsort) P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.4000
+    phi-only(S1)     P@1 0.4710  P@3 0.6400  P@5 0.8270  MRR 0.6058  Recall@GT 0.4250
+    random           P@1 0.0164  P@3 0.0492  P@5 0.0820  MRR 0.0770  Recall@GT 0.0164
+  --- target6 ---
+    phi-only         P@1 0.5236  P@3 0.7857  P@5 0.9736  MRR 0.6772  Recall@GT 0.3519
+      (det. argsort) P@1 0.7143  P@3 0.8571  P@5 1.0000  MRR 0.7976  Recall@GT 0.3750
+    phi-only(S1)     P@1 0.2329  P@3 0.3371  P@5 0.3764  MRR 0.3263  Recall@GT 0.2694
+    random           P@1 0.0187  P@3 0.0560  P@5 0.0929  MRR 0.0836  Recall@GT 0.0187
+  --- target7 ---
+    phi-only         P@1 0.5275  P@3 0.8400  P@5 0.9113  MRR 0.7082  Recall@GT 0.2200
+      (det. argsort) P@1 0.5000  P@3 0.7500  P@5 1.0000  MRR 0.6750  Recall@GT 0.3333
+    phi-only(S1)     P@1 0.2775  P@3 0.5900  P@5 0.6613  MRR 0.4783  Recall@GT 0.2200
+    random           P@1 0.0246  P@3 0.0725  P@5 0.1189  MRR 0.0984  Recall@GT 0.0246
+  --- target8 ---
+    phi-only         P@1 0.6000  P@3 0.8000  P@5 0.8000  MRR 0.7162  Recall@GT 0.3333
+      (det. argsort) P@1 0.6000  P@3 0.8000  P@5 0.8000  MRR 0.7167  Recall@GT 0.3333
+    phi-only(S1)     P@1 0.4000  P@3 0.4000  P@5 0.4000  MRR 0.4151  Recall@GT 0.3333
+    random           P@1 0.0197  P@3 0.0587  P@5 0.0973  MRR 0.0862  Recall@GT 0.0197
+
+  --- TPCH / n_inst=3  Avg over 8 targets ---
+    phi-only         P@1 0.6501  P@3 0.8157  P@5 0.8981  MRR 0.7565  Recall@GT 0.4068
+    phi-only(det)    P@1 0.6518  P@3 0.8134  P@5 0.9125  MRR 0.7583  Recall@GT 0.4302
+    phi-only(S1)     P@1 0.4328  P@3 0.5655  P@5 0.6204  MRR 0.5319  Recall@GT 0.3861
+    phi-only(S2)     P@1 0.0623  P@3 0.1832  P@5 0.2987  MRR 0.1937  Recall@GT 0.0513
+    phi-only(S3)     P@1 0.2118  P@3 0.5461  P@5 0.6689  MRR 0.4158  Recall@GT 0.1349
+    phi-only(S4)     P@1 0.6204  P@3 0.8206  P@5 0.8907  MRR 0.7356  Recall@GT 0.3935
+    random           P@1 0.0209  P@3 0.0620  P@5 0.1023  MRR 0.0889  Recall@GT 0.0209
+
+============================================================
+  n_inst = 5
+============================================================
+  --- target1 ---
+    phi-only         P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8400  Recall@GT 0.4000
+      (det. argsort) P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8400  Recall@GT 0.4000
+    phi-only(S1)     P@1 0.4980  P@3 0.6920  P@5 0.8990  MRR 0.6442  Recall@GT 0.4200
+    random           P@1 0.0164  P@3 0.0492  P@5 0.0820  MRR 0.0770  Recall@GT 0.0164
+  --- target2 ---
+    phi-only         P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.8667  Recall@GT 0.6000
+      (det. argsort) P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.8667  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.4000  P@3 0.4000  P@5 0.4000  MRR 0.4310  Recall@GT 0.4000
+    random           P@1 0.0164  P@3 0.0492  P@5 0.0820  MRR 0.0770  Recall@GT 0.0164
+  --- target3 ---
+    phi-only         P@1 0.5817  P@3 0.6667  P@5 0.6667  MRR 0.6631  Recall@GT 0.4000
+      (det. argsort) P@1 0.5000  P@3 0.6667  P@5 0.6667  MRR 0.6223  Recall@GT 0.4000
+    phi-only(S1)     P@1 0.5817  P@3 0.6667  P@5 0.6667  MRR 0.6461  Recall@GT 0.4000
+    random           P@1 0.0273  P@3 0.0806  P@5 0.1321  MRR 0.1067  Recall@GT 0.0273
+  --- target4 ---
+    phi-only         P@1 0.8333  P@3 0.8333  P@5 0.8333  MRR 0.8460  Recall@GT 0.4000
+      (det. argsort) P@1 0.8333  P@3 0.8333  P@5 0.8333  MRR 0.8472  Recall@GT 0.4000
+    phi-only(S1)     P@1 0.5000  P@3 0.5000  P@5 0.5000  MRR 0.5222  Recall@GT 0.4000
+    random           P@1 0.0273  P@3 0.0803  P@5 0.1312  MRR 0.1055  Recall@GT 0.0273
+  --- target5 ---
+    phi-only         P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8400  Recall@GT 0.6000
+      (det. argsort) P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8400  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.6360  P@3 0.7460  P@5 0.8670  MRR 0.7253  Recall@GT 0.6000
+    random           P@1 0.0164  P@3 0.0492  P@5 0.0820  MRR 0.0770  Recall@GT 0.0164
+  --- target6 ---
+    phi-only         P@1 0.6664  P@3 0.9286  P@5 0.9736  MRR 0.7843  Recall@GT 0.2500
+      (det. argsort) P@1 0.8571  P@3 1.0000  P@5 1.0000  MRR 0.9048  Recall@GT 0.2500
+    phi-only(S1)     P@1 0.2329  P@3 0.3371  P@5 0.3764  MRR 0.3270  Recall@GT 0.2244
+    random           P@1 0.0187  P@3 0.0560  P@5 0.0929  MRR 0.0836  Recall@GT 0.0187
+  --- target7 ---
+    phi-only         P@1 0.7987  P@3 0.8962  P@5 1.0000  MRR 0.8641  Recall@GT 0.3333
+      (det. argsort) P@1 0.7500  P@3 0.7500  P@5 1.0000  MRR 0.8000  Recall@GT 0.3333
+    phi-only(S1)     P@1 0.5487  P@3 0.6462  P@5 0.7500  MRR 0.6342  Recall@GT 0.3333
+    random           P@1 0.0246  P@3 0.0725  P@5 0.1189  MRR 0.0984  Recall@GT 0.0246
+  --- target8 ---
+    phi-only         P@1 0.6000  P@3 0.8000  P@5 0.8000  MRR 0.7162  Recall@GT 0.3333
+      (det. argsort) P@1 0.6000  P@3 0.8000  P@5 0.8000  MRR 0.7167  Recall@GT 0.3333
+    phi-only(S1)     P@1 0.4000  P@3 0.4000  P@5 0.4000  MRR 0.4151  Recall@GT 0.3333
+    random           P@1 0.0197  P@3 0.0587  P@5 0.0973  MRR 0.0862  Recall@GT 0.0197
+
+  --- TPCH / n_inst=5  Avg over 8 targets ---
+    phi-only         P@1 0.7350  P@3 0.8406  P@5 0.9092  MRR 0.8025  Recall@GT 0.4146
+    phi-only(det)    P@1 0.7426  P@3 0.8313  P@5 0.9125  MRR 0.8047  Recall@GT 0.4146
+    phi-only(S1)     P@1 0.4747  P@3 0.5485  P@5 0.6074  MRR 0.5431  Recall@GT 0.3889
+    phi-only(S2)     P@1 0.0623  P@3 0.1832  P@5 0.2987  MRR 0.1937  Recall@GT 0.0513
+    phi-only(S3)     P@1 0.2651  P@3 0.5367  P@5 0.6741  MRR 0.4432  Recall@GT 0.1326
+    phi-only(S4)     P@1 0.6872  P@3 0.8631  P@5 0.8970  MRR 0.7805  Recall@GT 0.3864
+    random           P@1 0.0209  P@3 0.0620  P@5 0.1023  MRR 0.0889  Recall@GT 0.0209
+
+============================================================
+  n_inst = 8
+============================================================
+  --- target1 ---
+    phi-only         P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.8667  Recall@GT 0.6000
+      (det. argsort) P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.8667  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.6640  P@3 0.7900  P@5 0.9320  MRR 0.7608  Recall@GT 0.6000
+    random           P@1 0.0164  P@3 0.0492  P@5 0.0820  MRR 0.0770  Recall@GT 0.0164
+  --- target2 ---
+    phi-only         P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.6000
+      (det. argsort) P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.6000  P@3 0.6000  P@5 0.6000  MRR 0.6261  Recall@GT 0.6000
+    random           P@1 0.0164  P@3 0.0492  P@5 0.0820  MRR 0.0770  Recall@GT 0.0164
+  --- target3 ---
+    phi-only         P@1 0.5817  P@3 0.6667  P@5 0.6667  MRR 0.6646  Recall@GT 0.4000
+      (det. argsort) P@1 0.5000  P@3 0.6667  P@5 0.6667  MRR 0.6238  Recall@GT 0.4000
+    phi-only(S1)     P@1 0.5817  P@3 0.6667  P@5 0.6667  MRR 0.6486  Recall@GT 0.4000
+    random           P@1 0.0273  P@3 0.0806  P@5 0.1321  MRR 0.1067  Recall@GT 0.0273
+  --- target4 ---
+    phi-only         P@1 0.8333  P@3 0.8333  P@5 0.8333  MRR 0.8460  Recall@GT 0.4000
+      (det. argsort) P@1 0.8333  P@3 0.8333  P@5 0.8333  MRR 0.8472  Recall@GT 0.4000
+    phi-only(S1)     P@1 0.5000  P@3 0.5000  P@5 0.5000  MRR 0.5222  Recall@GT 0.4000
+    random           P@1 0.0273  P@3 0.0803  P@5 0.1312  MRR 0.1055  Recall@GT 0.0273
+  --- target5 ---
+    phi-only         P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8400  Recall@GT 0.6000
+      (det. argsort) P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8400  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.6360  P@3 0.7460  P@5 0.8670  MRR 0.7253  Recall@GT 0.6000
+    random           P@1 0.0164  P@3 0.0492  P@5 0.0820  MRR 0.0770  Recall@GT 0.0164
+  --- target6 ---
+    phi-only         P@1 0.5236  P@3 0.9286  P@5 0.9736  MRR 0.6891  Recall@GT 0.2500
+      (det. argsort) P@1 0.7143  P@3 1.0000  P@5 1.0000  MRR 0.8095  Recall@GT 0.2500
+    phi-only(S1)     P@1 0.2329  P@3 0.3371  P@5 0.3764  MRR 0.3263  Recall@GT 0.2244
+    random           P@1 0.0187  P@3 0.0560  P@5 0.0929  MRR 0.0836  Recall@GT 0.0187
+  --- target7 ---
+    phi-only         P@1 0.7987  P@3 0.8962  P@5 1.0000  MRR 0.8641  Recall@GT 0.3333
+      (det. argsort) P@1 0.7500  P@3 0.7500  P@5 1.0000  MRR 0.8000  Recall@GT 0.3333
+    phi-only(S1)     P@1 0.5487  P@3 0.6462  P@5 0.7500  MRR 0.6342  Recall@GT 0.3333
+    random           P@1 0.0246  P@3 0.0725  P@5 0.1189  MRR 0.0984  Recall@GT 0.0246
+  --- target8 ---
+    phi-only         P@1 0.6000  P@3 0.8000  P@5 0.8000  MRR 0.7162  Recall@GT 0.3333
+      (det. argsort) P@1 0.6000  P@3 0.8000  P@5 0.8000  MRR 0.7167  Recall@GT 0.3333
+    phi-only(S1)     P@1 0.4000  P@3 0.4000  P@5 0.4000  MRR 0.4151  Recall@GT 0.3333
+    random           P@1 0.0197  P@3 0.0587  P@5 0.0973  MRR 0.0862  Recall@GT 0.0197
+
+  --- TPCH / n_inst=8  Avg over 8 targets ---
+    phi-only         P@1 0.7172  P@3 0.8406  P@5 0.9092  MRR 0.7921  Recall@GT 0.4396
+    phi-only(det)    P@1 0.7247  P@3 0.8313  P@5 0.9125  MRR 0.7942  Recall@GT 0.4396
+    phi-only(S1)     P@1 0.5204  P@3 0.5858  P@5 0.6365  MRR 0.5823  Recall@GT 0.4364
+    phi-only(S2)     P@1 0.0623  P@3 0.1832  P@5 0.2987  MRR 0.1937  Recall@GT 0.0513
+    phi-only(S3)     P@1 0.2193  P@3 0.5796  P@5 0.6741  MRR 0.4297  Recall@GT 0.1326
+    phi-only(S4)     P@1 0.7073  P@3 0.8131  P@5 0.8599  MRR 0.7843  Recall@GT 0.3864
+    random           P@1 0.0209  P@3 0.0620  P@5 0.1023  MRR 0.0889  Recall@GT 0.0209
+
+============================================================
+  n_inst = 10
+============================================================
+  --- target1 ---
+    phi-only         P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.8667  Recall@GT 0.6000
+      (det. argsort) P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.8667  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.6640  P@3 0.7900  P@5 0.9320  MRR 0.7608  Recall@GT 0.6000
+    random           P@1 0.0164  P@3 0.0492  P@5 0.0820  MRR 0.0770  Recall@GT 0.0164
+  --- target2 ---
+    phi-only         P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.8667  Recall@GT 0.6000
+      (det. argsort) P@1 0.8000  P@3 1.0000  P@5 1.0000  MRR 0.8667  Recall@GT 0.6000
+    phi-only(S1)     P@1 0.6000  P@3 0.6000  P@5 0.6000  MRR 0.6261  Recall@GT 0.6000
+    random           P@1 0.0164  P@3 0.0492  P@5 0.0820  MRR 0.0770  Recall@GT 0.0164
+  --- target3 ---
+    phi-only         P@1 0.6667  P@3 0.6667  P@5 0.6667  MRR 0.7071  Recall@GT 0.4000
+      (det. argsort) P@1 0.6667  P@3 0.6667  P@5 0.6667  MRR 0.7071  Recall@GT 0.4000
+    phi-only(S1)     P@1 0.6667  P@3 0.6667  P@5 0.6667  MRR 0.6911  Recall@GT 0.4000
+    random           P@1 0.0273  P@3 0.0806  P@5 0.1321  MRR 0.1067  Recall@GT 0.0273
+  --- target4 ---
+    phi-only         P@1 0.6667  P@3 0.8333  P@5 0.8333  MRR 0.7626  Recall@GT 0.5000
+      (det. argsort) P@1 0.6667  P@3 0.8333  P@5 0.8333  MRR 0.7639  Recall@GT 0.5000
+    phi-only(S1)     P@1 0.3333  P@3 0.5000  P@5 0.5000  MRR 0.4389  Recall@GT 0.5000
+    random           P@1 0.0273  P@3 0.0803  P@5 0.1312  MRR 0.1055  Recall@GT 0.0273
+  --- target5 ---
+    phi-only         P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.4000
+      (det. argsort) P@1 0.8000  P@3 0.8000  P@5 1.0000  MRR 0.8500  Recall@GT 0.4000
+    phi-only(S1)     P@1 0.6360  P@3 0.7460  P@5 0.8670  MRR 0.7253  Recall@GT 0.6000
+    random           P@1 0.0164  P@3 0.0492  P@5 0.0820  MRR 0.0770  Recall@GT 0.0164
+  --- target6 ---
+    phi-only         P@1 0.5236  P@3 0.9286  P@5 0.9736  MRR 0.6891  Recall@GT 0.2500
+      (det. argsort) P@1 0.7143  P@3 1.0000  P@5 1.0000  MRR 0.8095  Recall@GT 0.2500
+    phi-only(S1)     P@1 0.2329  P@3 0.3371  P@5 0.3764  MRR 0.3263  Recall@GT 0.2244
+    random           P@1 0.0187  P@3 0.0560  P@5 0.0929  MRR 0.0836  Recall@GT 0.0187
+  --- target7 ---
+    phi-only         P@1 0.7987  P@3 0.8962  P@5 1.0000  MRR 0.8641  Recall@GT 0.3333
+      (det. argsort) P@1 0.7500  P@3 0.7500  P@5 1.0000  MRR 0.8000  Recall@GT 0.3333
+    phi-only(S1)     P@1 0.5487  P@3 0.6462  P@5 0.7500  MRR 0.6342  Recall@GT 0.3333
+    random           P@1 0.0246  P@3 0.0725  P@5 0.1189  MRR 0.0984  Recall@GT 0.0246
+  --- target8 ---
+    phi-only         P@1 0.6000  P@3 0.8000  P@5 0.8000  MRR 0.7162  Recall@GT 0.3333
+      (det. argsort) P@1 0.6000  P@3 0.8000  P@5 0.8000  MRR 0.7167  Recall@GT 0.3333
+    phi-only(S1)     P@1 0.4000  P@3 0.4000  P@5 0.4000  MRR 0.4151  Recall@GT 0.3333
+    random           P@1 0.0197  P@3 0.0587  P@5 0.0973  MRR 0.0862  Recall@GT 0.0197
+
+  --- TPCH / n_inst=10  Avg over 8 targets ---
+    phi-only         P@1 0.7070  P@3 0.8656  P@5 0.9092  MRR 0.7903  Recall@GT 0.4271
+    phi-only(det)    P@1 0.7247  P@3 0.8562  P@5 0.9125  MRR 0.7976  Recall@GT 0.4271
+    phi-only(S1)     P@1 0.5102  P@3 0.5858  P@5 0.6365  MRR 0.5772  Recall@GT 0.4489
+    phi-only(S2)     P@1 0.0623  P@3 0.1832  P@5 0.2987  MRR 0.1937  Recall@GT 0.0513
+    phi-only(S3)     P@1 0.2445  P@3 0.5804  P@5 0.6765  MRR 0.4462  Recall@GT 0.1330
+    phi-only(S4)     P@1 0.7304  P@3 0.8260  P@5 0.8644  MRR 0.7964  Recall@GT 0.3899
+    random           P@1 0.0209  P@3 0.0620  P@5 0.1023  MRR 0.0889  Recall@GT 0.0209
+
+

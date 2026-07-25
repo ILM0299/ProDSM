@@ -1,0 +1,11 @@
+movie_id,title,genres,user_id,rating
+296,Pulp Fiction,Crime|Drama,3,5
+296,Pulp Fiction,Crime|Drama,10,4
+318,"Shawshank Redemption, The",Drama,7,5
+318,"Shawshank Redemption, The",Drama,15,5
+356,Forrest Gump,Comedy|Romance|War,5,4
+260,Star Wars: Episode IV - A New Hope,Action|Adventure|Fantasy|Sci-Fi,12,5
+589,Terminator 2: Judgment Day,Action|Sci-Fi|Thriller,13,4
+2571,"Matrix, The",Action|Sci-Fi|Thriller,10,5
+1,Toy Story,Animation|Children's|Comedy,16,4
+593,"Silence of the Lambs, The",Drama|Thriller,18,4

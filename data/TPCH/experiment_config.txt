@@ -1,0 +1,51 @@
+eval_depysm.py
+base_path = "/home/ouyang/Code/DepySM/data/TPCH/res"
+    target_configs = [
+        {"subdir": "target1"},   # customer_id + customer_name + address + phone + market_segment (CUSTOMER table subset)
+        {"subdir": "target2"},   # part_id + brand + part_type + container + retail_price (PART table subset)
+        {"subdir": "target3"},   # order_id + customer_id + order_status + ship_mode + discount + part_id (across ORDERS/LINEITEM)
+        {"subdir": "target4"},   # supplier_id + supplier_name + part_id + brand + supply_cost + container (across SUPPLIER/PARTSUPP/PART)
+        {"subdir": "target5"},   # customer_id + customer_name + nation_name + region_name + phone (across CUSTOMER/NATION/REGION)
+        {"subdir": "target6"},   # order_id + priority + clerk + ship_priority + receipt_date + commit_date + line_status (across ORDERS/LINEITEM)
+        {"subdir": "target7"},   # part_id + manufacturer + size + supply_cost (across PART/PARTSUPP)
+        {"subdir": "target8"},   # supplier_id + supplier_name + nation_name + region_name + account_balance (across SUPPLIER/NATION/REGION)
+    ]
+
+    n_source = 61
+
+
+
+
+DepySM_batch.py
+# Basic configuration (globally shared)
+    data_name = "TPCH"
+    source_number = 61
+    n_instance = 86806
+    force_rebuild_profiles = False
+    iter_num = 5
+    kappa = 1024 # If number of instances exceeds 10000, this is the compressed dimension
+    TARGET_PYTHON = "/home/ouyang/anaconda3/envs/PANE/bin/python"
+    data_dir_base = "../data"
+
+    # Define multiple target configurations (core: target list for batch processing)
+    # Format: [{"number": number of target columns, "subdir": target subdirectory name}, ...]
+    target_configs = [
+        {"number": 5, "subdir": "target1"},   # customer_id + customer_name + address + phone + market_segment (CUSTOMER table subset)
+        {"number": 5, "subdir": "target2"},   # part_id + brand + part_type + container + retail_price (PART table subset)
+        {"number": 6, "subdir": "target3"},   # order_id + customer_id + order_status + ship_mode + discount + part_id (across ORDERS/LINEITEM)
+        {"number": 6, "subdir": "target4"},   # supplier_id + supplier_name + part_id + brand + supply_cost + container (across SUPPLIER/PARTSUPP/PART)
+        {"number": 5, "subdir": "target5"},   # customer_id + customer_name + nation_name + region_name + phone (across CUSTOMER/NATION/REGION)
+        {"number": 7, "subdir": "target6"},   # order_id + priority + clerk + ship_priority + receipt_date + commit_date + line_status (across ORDERS/LINEITEM)
+        {"number": 4, "subdir": "target7"},   # part_id + manufacturer + size + supply_cost (across PART/PARTSUPP)
+        {"number": 5, "subdir": "target8"},   # supplier_id + supplier_name + nation_name + region_name + account_balance (across SUPPLIER/NATION/REGION)
+    ]
+
+    # Refinement parameters (global)
+    refinement_params = {
+        "max_iter": 5,
+        "patience": 2,
+        "k_min": 1,
+        "k_max": 3,
+        "decay": 0.4,
+        "ceiling": 1.5
+    }

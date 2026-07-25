@@ -1,0 +1,12 @@
+{
+  "user_id": [4, 9],
+  "gender": [5],
+  "age": [6],
+  "occupation": [7],
+  "movie_id": [0, 10],
+  "title": [1],
+  "year": [2],
+  "genres": [3],
+  "rating": [11],
+  "timestamp": [12]
+}

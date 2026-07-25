@@ -1,0 +1,41 @@
+eval_depysm.py
+base_path = "/home/ouyang/Code/DepySM/data/MusicRecordings/res"
+    target_configs = [
+        {"subdir": "target1"},   # SongName + Singer + Album (SongName key)
+        {"subdir": "target2"},   # SongName + Singer + Album + Style (SongName key)
+        {"subdir": "target3"},   # SongName + Duration + Style (SongName key, no Album->Singer FD)
+        {"subdir": "target4"},   # All columns (SongName + URL composite key)
+        {"subdir": "target5"},   # URL + Album + Singer (URL alternate key)
+        {"subdir": "target6"},   # Singer + Album + Style (no unique key)
+    ]
+
+    n_source = 6
+
+DepySM_batch.py
+# Basic configuration (globally shared)
+    data_name = "MusicRecordings"
+    source_number = 6
+    n_instance = 658
+    force_rebuild_profiles = False
+    iter_num = 5
+    kappa = 1024
+    TARGET_PYTHON = "/home/ouyang/anaconda3/envs/PANE/bin/python"
+    data_dir_base = "../data"
+
+    target_configs = [
+        {"number": 3, "subdir": "target1"},   # SongName + Singer + Album (SongName key)
+        {"number": 4, "subdir": "target2"},   # SongName + Singer + Album + Style (SongName key)
+        {"number": 3, "subdir": "target3"},   # SongName + Duration + Style (SongName key, no Album->Singer FD)
+        {"number": 6, "subdir": "target4"},   # All columns (SongName + URL composite key)
+        {"number": 3, "subdir": "target5"},   # URL + Album + Singer (URL alternate key)
+        {"number": 3, "subdir": "target6"},   # Singer + Album + Style (no unique key)
+    ]
+
+    refinement_params = {
+        "max_iter": 5,
+        "patience": 2,
+        "k_min": 1,
+        "k_max": 3,
+        "decay": 0.4,
+        "ceiling": 1.5
+    }

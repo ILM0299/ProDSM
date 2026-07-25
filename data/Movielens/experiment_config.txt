@@ -1,0 +1,46 @@
+eval_depysm.py
+base_path = "/home/ouyang/Code/DepySM/data/Movielens/res"
+    target_configs = [
+        {"subdir": "target1"},   # Movie Catalog (single table, movies only, 4 cols)
+        {"subdir": "target2"},   # User Profile (single table, users only, 4 cols)
+        {"subdir": "target3"},   # User-Movie Rating View (cross-table, 5 cols)
+        {"subdir": "target4"},   # Movie Genre Ratings (cross-table, 5 cols)
+        {"subdir": "target5"},   # User Demographics Rating (cross-table, 6 cols)
+        {"subdir": "target6"},   # Complete Rating Record (cross-table, 10 cols, full join)
+    ]
+
+    n_source = 13
+
+
+
+DepySM_batch.py
+# Basic configuration (globally shared)
+    data_name = "Movielens"
+    source_number = 13  # Total number of source columns: movies(4) + users(5) + ratings(4) = 13
+    n_instance = 1010133  # Total number of rows: movies(3952) + users(6040) + ratings(1000209) ≈ 1010201
+    force_rebuild_profiles = False
+    iter_num = 5
+    kappa = 1024
+    TARGET_PYTHON = "/home/ouyang/anaconda3/envs/PANE/bin/python"
+    data_dir_base = "../data"
+
+    # Define multiple target configurations (core: target list for batch processing)
+    # Format: [{"number": number of target columns, "subdir": target subdirectory name}, ...]
+    target_configs = [
+        {"number": 4,  "subdir": "target1"},   # Movie Catalog (single table, movies only, 4 cols)
+        {"number": 4,  "subdir": "target2"},   # User Profile (single table, users only, 4 cols)
+        {"number": 5,  "subdir": "target3"},   # User-Movie Rating View (cross-table, 5 cols)
+        {"number": 5,  "subdir": "target4"},   # Movie Genre Ratings (cross-table, 5 cols)
+        {"number": 6,  "subdir": "target5"},   # User Demographics Rating (cross-table, 6 cols)
+        {"number": 10, "subdir": "target6"},   # Complete Rating Record (cross-table, 10 cols, full join)
+    ]
+
+    # Refinement parameters (global)
+    refinement_params = {
+        "max_iter": 5,
+        "patience": 2,
+        "k_min": 1,
+        "k_max": 3,
+        "decay": 0.4,
+        "ceiling": 1.5
+    }

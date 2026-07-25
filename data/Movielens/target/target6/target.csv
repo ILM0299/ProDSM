@@ -1,0 +1,11 @@
+user_id,gender,age,occupation,movie_id,title,year,genres,rating,timestamp
+3,M,25,scientist,296,Pulp Fiction,1994,Crime|Drama,5,978244471
+3,M,25,scientist,1193,One Flew Over the Cuckoo's Nest,1975,Drama,4,978302040
+5,M,25,writer,356,Forrest Gump,1994,Comedy|Romance|War,4,957920588
+7,M,35,academic/educator,260,Star Wars: Episode IV - A New Hope,1977,Action|Adventure|Fantasy|Sci-Fi,5,965344688
+7,M,35,academic/educator,318,"Shawshank Redemption, The",1994,Drama,5,965435112
+10,F,35,academic/educator,2571,"Matrix, The",1999,Action|Sci-Fi|Thriller,5,962301665
+10,F,35,academic/educator,593,"Silence of the Lambs, The",1991,Drama|Thriller,4,962301706
+12,M,25,programmer,589,Terminator 2: Judgment Day,1991,Action|Sci-Fi|Thriller,5,978203097
+15,M,25,executive/managerial,1,Toy Story,1995,Animation|Children's|Comedy,4,941855102
+16,F,35,other or not specified,2858,American Beauty,1999,Comedy|Drama,5,974573736

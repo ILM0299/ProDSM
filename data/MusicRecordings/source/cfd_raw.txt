@@ -1,0 +1,35 @@
+(2=Bo Diddley) => 3=The Chess Years - Disc 5 of 12
+(2=Leadbelly) => 3=Lead Belly's Last Sessions
+(3, 2=Bo Diddley) => 4
+(3, 2=Leadbelly) => 4
+(4, 2=Bo Diddley) => 5
+(4, 2=Leadbelly) => 5
+(3, 2=Bo Diddley) => 5
+(3, 2=Leadbelly) => 5
+(4, 3, 2=Leadbelly) => 5
+(1, 2=Bo Diddley) => 4
+(1, 2=Leadbelly) => 4
+(4, 2=Bo Diddley) => 1
+(4, 2=Leadbelly) => 1
+(1, 2=Bo Diddley) => 3
+(1, 2=Leadbelly) => 3
+(3, 2=Bo Diddley) => 1
+(3, 2=Leadbelly) => 1
+(3, 1, 2=Bo Diddley) => 4
+(3, 1, 2=Leadbelly) => 4
+(4, 3, 2=Leadbelly) => 1
+(1, 2=Bo Diddley) => 5
+(1, 2=Leadbelly) => 5
+(4, 1, 2=Leadbelly) => 5
+(3, 1, 2=Leadbelly) => 5
+(0, 2=Bo Diddley) => 5
+(0, 2=Leadbelly) => 5
+(1, 2=Bo Diddley) => 0
+(1, 2=Leadbelly) => 0
+(4, 2=Bo Diddley) => 0
+(4, 2=Leadbelly) => 0
+(3, 2=Bo Diddley) => 0
+(3, 2=Leadbelly) => 0
+(4, 3, 2=Leadbelly) => 0
+(3, 1, 2=Bo Diddley) => 0
+(3, 1, 2=Leadbelly) => 0
